@@ -1,4 +1,4 @@
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 import { shade } from 'polished';
 
 interface FormProps {
@@ -259,7 +259,7 @@ span{
 }
 button {
     margin-top: 12px;
-    width: 515px;
+    width: 417px;
     height: 70px;
     background: #000;
     font-size: 20px;

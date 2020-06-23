@@ -1,4 +1,4 @@
-import React, { useState, useEffect, FormEvent } from 'react';
+import React, { useState, useEffect} from 'react';
 import logoImg from '../../assets/logo.svg';
 import vtexImg from '../../assets/vtex.png';
 import createdByImg from '../../assets/Createdby.png';
@@ -13,7 +13,7 @@ import validate from "../../validateNews";
 import '../../index.css';
 import Slider from '../../components/Slider';
 import images from '../../images'
-import ReactDOM from 'react-dom'
+
 interface Produtos {
     productId: number;
     productName: string;
@@ -29,7 +29,7 @@ const HomePage: React.FC = () => {
       );
       const [showDiv, setShowDiv] = useState(false);
     const [newSearch, setSearch] = useState('');
-    const [inputError, setInputError] = useState('');
+    const [inputError] = useState('');
     const [produtos, setProdutos] = useState<Produtos[]>([]);
     const initialCount = () => Number(window.localStorage.getItem('count'))
     const [count, setCount] = useState(initialCount)
