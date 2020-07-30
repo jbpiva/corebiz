@@ -1,3 +1,3 @@
 export default [
-  'https://i.ibb.co/R44zkv5/banner2.png',
+  'https://i.ibb.co/z7hckv7/banner2.png',
 ]
